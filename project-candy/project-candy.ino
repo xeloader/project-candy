@@ -66,11 +66,11 @@ const byte sym_plus[] = { 0b00100000,
                           0b00100000,
                           0b00100000};
 
-const byte sym_lock[] = { 0b01000000, 
-                          0b01000000, 
-                          0b01000000,
-                          0b01000000,
-                          0b01111000};
+const byte sym_lock[] = { 0b01010000, 
+                          0b11111000, 
+                          0b01010000,
+                          0b11111000,
+                          0b01010000};
 
 //MODE
 byte mode = STARTING_MODE;
