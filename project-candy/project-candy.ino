@@ -140,6 +140,8 @@ void loop() {
       break;
     }
 
+    reset_lm();
+
     if(response == mode) {
       set_rgb_color(COLOR_GREEN);
       beep(BEEP_GOOD);
